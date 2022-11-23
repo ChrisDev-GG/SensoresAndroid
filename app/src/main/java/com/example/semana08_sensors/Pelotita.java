@@ -61,7 +61,7 @@ public class Pelotita extends View implements SensorEventListener {
     public void onDraw(Canvas lienzo) {
         pincel.setColor((Color.RED));
         lienzo.drawCircle(ejeX, ejeY, ejeZ+tamano, pincel);
-        pincel.setColor(Color.WHITE);
+        pincel.setColor(Color.GRAY);
         pincel.setTextSize(25);
         lienzo.drawText("EEEE", ejeX-35, ejeY+3,pincel);
     }
